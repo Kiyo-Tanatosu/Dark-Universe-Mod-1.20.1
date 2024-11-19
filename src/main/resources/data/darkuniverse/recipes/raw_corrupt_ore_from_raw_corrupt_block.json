@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "darkuniverse:raw_corrupt_block"
+    }
+  ],
+  "result": {
+    "item": "darkuniverse:raw_corrupt_ore",
+    "count": 9
+  }
+}

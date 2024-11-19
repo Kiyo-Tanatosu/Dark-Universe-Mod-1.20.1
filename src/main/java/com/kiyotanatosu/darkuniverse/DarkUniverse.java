@@ -1,5 +1,8 @@
 package com.kiyotanatosu.darkuniverse;
 
+import com.kiyotanatosu.darkuniverse.block.ModBlocks;
+import com.kiyotanatosu.darkuniverse.item.ModCreativeModeTabs;
+import com.kiyotanatosu.darkuniverse.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.block.Blocks;
@@ -31,6 +34,12 @@ public class DarkUniverse
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModItems.register(modEventBus);
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -54,8 +63,8 @@ public class DarkUniverse
     }
 
     // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
-    {
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

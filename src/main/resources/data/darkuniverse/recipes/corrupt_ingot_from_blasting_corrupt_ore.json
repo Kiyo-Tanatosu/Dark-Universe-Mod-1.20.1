@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1,
+  "group": "corrupt_ingot",
+  "ingredient": {
+    "item": "darkuniverse:raw_corrupt_ore"
+  },
+  "result": "darkuniverse:corrupt_ingot"
+}
