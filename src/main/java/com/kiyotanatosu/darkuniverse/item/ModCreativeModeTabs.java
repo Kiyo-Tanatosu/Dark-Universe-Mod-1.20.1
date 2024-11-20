@@ -26,7 +26,26 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RAW_CORRUPT_BLOCK.get());
                         output.accept(ModBlocks.CORRUPT_ORE.get());
 
+                        output.accept(ModItems.CORRUPT_SWORD.get());
+                        output.accept(ModItems.CORRUPT_PICKAXE.get());
+                        output.accept(ModItems.CORRUPT_AXE.get());
+                        output.accept(ModItems.CORRUPT_SHOVEL.get());
+                        output.accept(ModItems.CORRUPT_HOE.get());
+
+                        output.accept(ModBlocks.CORRUPT_STONE.get());
+                        output.accept(ModBlocks.CORRUPT_BRICKS.get());
+                        output.accept(ModBlocks.CORRUPT_SLAB.get());
+                        output.accept(ModBlocks.CORRUPT_STAIRS.get());
+                        output.accept(ModBlocks.CORRUPT_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.CORRUPT_BUTTON.get());
+                        output.accept(ModBlocks.CORRUPT_FENCE.get());
+                        output.accept(ModBlocks.CORRUPT_FENCE_GATE.get());
+                        output.accept(ModBlocks.CORRUPT_WALL.get());
+                        output.accept(ModBlocks.CORRUPT_DOOR.get());
+                        output.accept(ModBlocks.CORRUPT_TRAPDOOR.get());
+
                         output.accept(ModItems.BANANA.get());
+
 
                     })
                     .build());

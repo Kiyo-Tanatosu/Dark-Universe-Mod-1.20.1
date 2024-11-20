@@ -5,9 +5,27 @@
 
   "item.darkuniverse.banana": "Banana",
 
+  "item.darkuniverse.corrupt_sword": "Corrupt Sword",
+  "item.darkuniverse.corrupt_pickaxe": "Corrupt Pickaxe",
+  "item.darkuniverse.corrupt_axe": "Corrupt Axe",
+  "item.darkuniverse.corrupt_shovel": "Corrupt Shovel",
+  "item.darkuniverse.corrupt_hoe": "Corrupt Hoe",
+
   "block.darkuniverse.corrupt_block": "Corrupt Block",
   "block.darkuniverse.raw_corrupt_block": "Raw Corrupt Block",
   "block.darkuniverse.corrupt_ore": "Corrupt Ore",
+
+  "block.darkuniverse.corrupt_stone": "Corrupt Stone",
+  "block.darkuniverse.corrupt_bricks": "Corrupt Bricks",
+  "block.darkuniverse.corrupt_stairs": "Corrupt Stairs",
+  "block.darkuniverse.corrupt_slab": "Corrupt Slab",
+  "block.darkuniverse.corrupt_button": "Corrupt Button",
+  "block.darkuniverse.corrupt_pressure_plate": "Corrupt Pressure Plate",
+  "block.darkuniverse.corrupt_fence": "Corrupt Fence",
+  "block.darkuniverse.corrupt_fence_gate": "Corrupt Fence Gate",
+  "block.darkuniverse.corrupt_wall": "Corrupt Wall",
+  "block.darkuniverse.corrupt_door": "Corrupt Door",
+  "block.darkuniverse.corrupt_trapdoor": "Corrupt Trapdoor",
 
   "creativetab.dark_universe_tab": "Dark Universe"
 }

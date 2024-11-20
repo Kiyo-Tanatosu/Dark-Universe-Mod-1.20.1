@@ -37,9 +37,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.CORRUPT_INGOT.get()), has(ModItems.CORRUPT_INGOT.get()))
                 .save(pWriter);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CORRUPT_INGOT.get())
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CORRUPT_INGOT.get(), 9)
                 .requires(ModBlocks.CORRUPT_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.CORRUPT_BLOCK.get()), has(ModBlocks.CORRUPT_BLOCK.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RAW_CORRUPT_BLOCK.get())
+                .pattern("CCC")
+                .pattern("CCC")
+                .pattern("CCC")
+                .define('C', ModItems.RAW_CORRUPT_ORE.get())
+                .unlockedBy(getHasName(ModItems.RAW_CORRUPT_ORE.get()), has(ModItems.RAW_CORRUPT_ORE.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAW_CORRUPT_ORE.get(), 9)
+                .requires(ModBlocks.RAW_CORRUPT_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.RAW_CORRUPT_BLOCK.get()), has(ModBlocks.RAW_CORRUPT_BLOCK.get()))
                 .save(pWriter);
     }
 

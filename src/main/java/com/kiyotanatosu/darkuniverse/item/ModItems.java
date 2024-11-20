@@ -2,7 +2,7 @@ package com.kiyotanatosu.darkuniverse.item;
 
 import com.kiyotanatosu.darkuniverse.DarkUniverse;
 import com.kiyotanatosu.darkuniverse.item.custom.FuelItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -21,6 +21,22 @@ public class ModItems {
 
     public static final RegistryObject<Item> BANANA = ITEMS.register("banana",
             () -> new Item(new Item.Properties().food(ModFoods.BANANA)));
+
+    public static final RegistryObject<Item> CORRUPT_SWORD = ITEMS.register("corrupt_sword",
+            () -> new SwordItem(ModToolTiers.CORRUPT, 3, -2.4f, new Item.Properties()));
+
+    public static final RegistryObject<Item> CORRUPT_PICKAXE = ITEMS.register("corrupt_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.CORRUPT, 1, -2.8f, new Item.Properties()));
+
+    public static final RegistryObject<Item> CORRUPT_AXE = ITEMS.register("corrupt_axe",
+            () -> new AxeItem(ModToolTiers.CORRUPT, 5, -3f, new Item.Properties()));
+
+    public static final RegistryObject<Item> CORRUPT_SHOVEL = ITEMS.register("corrupt_shovel",
+            () -> new ShovelItem(ModToolTiers.CORRUPT, 1, -3f, new Item.Properties()));
+
+    public static final RegistryObject<Item> CORRUPT_HOE = ITEMS.register("corrupt_hoe",
+            () -> new HoeItem(ModToolTiers.CORRUPT, -4, 0f, new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus) {

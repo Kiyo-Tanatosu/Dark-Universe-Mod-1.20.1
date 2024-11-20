@@ -2,7 +2,6 @@ package com.kiyotanatosu.darkuniverse.datagen;
 
 import com.kiyotanatosu.darkuniverse.DarkUniverse;
 import com.kiyotanatosu.darkuniverse.block.ModBlocks;
-import com.kiyotanatosu.darkuniverse.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -29,6 +28,15 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.CORRUPT_BLOCK.get())
                 .add(ModBlocks.RAW_CORRUPT_BLOCK.get())
                 .add(ModBlocks.CORRUPT_ORE.get());
+
+        this.tag(BlockTags.FENCES)
+                .add(ModBlocks.CORRUPT_FENCE.get());
+
+        this.tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.CORRUPT_FENCE_GATE.get());
+
+        this.tag(BlockTags.WALLS)
+                .add(ModBlocks.CORRUPT_WALL.get());
 
     }
 }
