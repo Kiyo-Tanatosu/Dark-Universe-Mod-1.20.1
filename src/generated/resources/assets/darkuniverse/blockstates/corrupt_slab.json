@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "darkuniverse:block/corrupt_slab"
+    },
+    "type=double": {
+      "model": "darkuniverse:block/corrupt_bricks"
+    },
+    "type=top": {
+      "model": "darkuniverse:block/corrupt_slab_top"
+    }
+  }
+}

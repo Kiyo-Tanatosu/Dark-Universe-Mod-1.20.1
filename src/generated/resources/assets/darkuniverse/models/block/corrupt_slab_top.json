@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "darkuniverse:block/corrupt_bricks",
+    "side": "darkuniverse:block/corrupt_bricks",
+    "top": "darkuniverse:block/corrupt_bricks"
+  }
+}

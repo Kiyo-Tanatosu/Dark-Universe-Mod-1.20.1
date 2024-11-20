@@ -1,0 +1,6 @@
+// 1.20.1	2024-11-20T11:24:05.7241723	Tags for minecraft:block mod id darkuniverse
+c75b546ea29475de531fb2fda324cdf733aea7bf data/minecraft/tags/blocks/fences.json
+8c931bb6b69420370cf47e0c00d97e41f42643ff data/minecraft/tags/blocks/fence_gates.json
+4a3774494c6d78a8bdcc741e37dcc73ca7bdbd50 data/minecraft/tags/blocks/mineable/pickaxe.json
+4a3774494c6d78a8bdcc741e37dcc73ca7bdbd50 data/minecraft/tags/blocks/needs_diamond_tool.json
+755b68fc18e57dc8e0265b40872e8edb18d57681 data/minecraft/tags/blocks/walls.json

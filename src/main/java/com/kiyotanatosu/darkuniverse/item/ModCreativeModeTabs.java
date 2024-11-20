@@ -32,6 +32,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CORRUPT_SHOVEL.get());
                         output.accept(ModItems.CORRUPT_HOE.get());
 
+                        output.accept(ModItems.CORRUPT_HELMET.get());
+                        output.accept(ModItems.CORRUPT_CHESTPLATE.get());
+                        output.accept(ModItems.CORRUPT_LEGGINGS.get());
+                        output.accept(ModItems.CORRUPT_BOOTS.get());
+
                         output.accept(ModBlocks.CORRUPT_STONE.get());
                         output.accept(ModBlocks.CORRUPT_BRICKS.get());
                         output.accept(ModBlocks.CORRUPT_SLAB.get());

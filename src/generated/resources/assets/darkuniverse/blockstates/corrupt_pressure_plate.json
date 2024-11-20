@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "darkuniverse:block/corrupt_pressure_plate"
+    },
+    "powered=true": {
+      "model": "darkuniverse:block/corrupt_pressure_plate_down"
+    }
+  }
+}
