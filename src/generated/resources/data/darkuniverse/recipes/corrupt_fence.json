@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "darkuniverse:corrupt_bricks"
+    },
+    "C": {
+      "item": "darkuniverse:corrupt_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    "BCB",
+    "BCB"
+  ],
+  "result": {
+    "count": 6,
+    "item": "darkuniverse:corrupt_fence"
+  },
+  "show_notification": true
+}

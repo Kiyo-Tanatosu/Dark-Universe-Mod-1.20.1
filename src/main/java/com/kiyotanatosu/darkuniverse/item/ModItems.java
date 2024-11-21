@@ -2,6 +2,7 @@ package com.kiyotanatosu.darkuniverse.item;
 
 import com.kiyotanatosu.darkuniverse.DarkUniverse;
 import com.kiyotanatosu.darkuniverse.item.custom.FuelItem;
+import com.kiyotanatosu.darkuniverse.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -38,16 +39,16 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.CORRUPT, -4, 0f, new Item.Properties()));
 
     public static final RegistryObject<Item> CORRUPT_HELMET = ITEMS.register("corrupt_helmet",
-            () -> new ArmorItem(ModArmorMaterials.CORRUPT, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.CORRUPT, ArmorItem.Type.HELMET, new Item.Properties()));
 
     public static final RegistryObject<Item> CORRUPT_CHESTPLATE = ITEMS.register("corrupt_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.CORRUPT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.CORRUPT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
 
     public static final RegistryObject<Item> CORRUPT_LEGGINGS = ITEMS.register("corrupt_leggings",
-            () -> new ArmorItem(ModArmorMaterials.CORRUPT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.CORRUPT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
 
     public static final RegistryObject<Item> CORRUPT_BOOTS = ITEMS.register("corrupt_boots",
-            () -> new ArmorItem(ModArmorMaterials.CORRUPT, ArmorItem.Type.BOOTS, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.CORRUPT, ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
 

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "darkuniverse:corrupt_bricks"
+    }
+  ],
+  "result": {
+    "item": "darkuniverse:corrupt_button"
+  }
+}

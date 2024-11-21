@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.CORRUPT_BLOCK.get());
                         output.accept(ModBlocks.RAW_CORRUPT_BLOCK.get());
                         output.accept(ModBlocks.CORRUPT_ORE.get());
+                        output.accept(ModBlocks.CORRUPT_COAL_ORE.get());
 
                         output.accept(ModItems.CORRUPT_SWORD.get());
                         output.accept(ModItems.CORRUPT_PICKAXE.get());

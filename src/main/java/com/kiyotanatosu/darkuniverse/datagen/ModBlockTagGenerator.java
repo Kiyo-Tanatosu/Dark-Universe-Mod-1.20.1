@@ -22,12 +22,16 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.CORRUPT_BLOCK.get())
                 .add(ModBlocks.RAW_CORRUPT_BLOCK.get())
-                .add(ModBlocks.CORRUPT_ORE.get());
+                .add(ModBlocks.CORRUPT_ORE.get())
+                .add(ModBlocks.CORRUPT_COAL_ORE.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.CORRUPT_BLOCK.get())
                 .add(ModBlocks.RAW_CORRUPT_BLOCK.get())
                 .add(ModBlocks.CORRUPT_ORE.get());
+
+        this.tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.CORRUPT_COAL_ORE.get());
 
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.CORRUPT_FENCE.get());

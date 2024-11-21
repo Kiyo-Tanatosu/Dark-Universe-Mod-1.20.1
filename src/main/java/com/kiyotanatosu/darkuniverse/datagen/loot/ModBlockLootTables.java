@@ -21,6 +21,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.CORRUPT_ORE.get(),
                 block -> createOreDrop(ModBlocks.CORRUPT_ORE.get(), ModItems.RAW_CORRUPT_ORE.get()));
 
+        this.add(ModBlocks.CORRUPT_COAL_ORE.get(),
+                block -> createOreDrop(ModBlocks.CORRUPT_COAL_ORE.get(), ModItems.CORRUPT_COAL.get()));
+
         this.dropSelf(ModBlocks.CORRUPT_STONE.get());
         this.dropSelf(ModBlocks.CORRUPT_BRICKS.get());
         this.dropSelf(ModBlocks.CORRUPT_STAIRS.get());

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "group": "corrupt_coal",
+  "ingredient": {
+    "item": "darkuniverse:corrupt_coal_ore"
+  },
+  "result": "darkuniverse:corrupt_coal"
+}

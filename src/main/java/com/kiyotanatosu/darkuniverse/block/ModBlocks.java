@@ -32,6 +32,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> CORRUPT_STONE = registerBlock("corrupt_stone",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
 
+    public static final RegistryObject<Block> CORRUPT_COAL_ORE = registerBlock("corrupt_coal_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COAL_ORE)));
+
     public static final RegistryObject<Block> CORRUPT_BRICKS = registerBlock("corrupt_bricks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_BRICKS)));
 

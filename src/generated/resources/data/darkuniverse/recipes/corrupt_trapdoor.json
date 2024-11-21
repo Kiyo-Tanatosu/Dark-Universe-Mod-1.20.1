@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "darkuniverse:corrupt_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    "CC ",
+    "CC "
+  ],
+  "result": {
+    "item": "darkuniverse:corrupt_trapdoor"
+  },
+  "show_notification": true
+}

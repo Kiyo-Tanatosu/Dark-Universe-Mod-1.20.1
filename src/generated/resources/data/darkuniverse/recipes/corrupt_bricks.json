@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "darkuniverse:corrupt_stone"
+    }
+  },
+  "pattern": [
+    "CC ",
+    "CC ",
+    "   "
+  ],
+  "result": {
+    "count": 4,
+    "item": "darkuniverse:corrupt_bricks"
+  },
+  "show_notification": true
+}

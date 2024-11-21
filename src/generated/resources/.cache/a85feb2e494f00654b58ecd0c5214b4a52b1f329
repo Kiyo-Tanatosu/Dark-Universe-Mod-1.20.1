@@ -1,7 +1,8 @@
-// 1.20.1	2024-11-20T11:24:05.740274	Block States: darkuniverse
+// 1.20.1	2024-11-21T14:49:10.3164371	Block States: darkuniverse
 9e8a64b4e5515e72cb6c9a7010044fa11132d560 assets/darkuniverse/blockstates/corrupt_block.json
 c637347c3f18bc41f48afe6167424ddca5173d82 assets/darkuniverse/blockstates/corrupt_bricks.json
 38f4a375b15e3c51e3af25d9f975167dcb1b4c5b assets/darkuniverse/blockstates/corrupt_button.json
+b027cd55942c5c9445dbe6530b8e854a47288e43 assets/darkuniverse/blockstates/corrupt_coal_ore.json
 76d6ea7ed1dab5289faf8612efdbd8f83d96069a assets/darkuniverse/blockstates/corrupt_door.json
 0580742d058d8da1ca45f770f3da3a0294ef8deb assets/darkuniverse/blockstates/corrupt_fence.json
 2a077e2428c69d7a1b206e4447963735f6983ddd assets/darkuniverse/blockstates/corrupt_fence_gate.json
@@ -17,6 +18,7 @@ dfd32b0220fdb4c02217513415ebc7d3a1de471f assets/darkuniverse/blockstates/corrupt
 0b3d64dabaa2f490b617cb28e0230e044c4cdd65 assets/darkuniverse/models/block/corrupt_bricks.json
 03fae371f394450181d64a6cf14499027b73aa1c assets/darkuniverse/models/block/corrupt_button.json
 5b15d3072cfbe0a0086eb07262ff57be99110c6f assets/darkuniverse/models/block/corrupt_button_pressed.json
+aacf8e03ae4238c73388bb1c0e449e46649579d8 assets/darkuniverse/models/block/corrupt_coal_ore.json
 9ee85b6ed8e99dc9215b9d4beb8ec41c5e2ee35f assets/darkuniverse/models/block/corrupt_door_bottom_left.json
 c6fd4484b9c22f15002e18c6b4ee8133ffc86f6f assets/darkuniverse/models/block/corrupt_door_bottom_left_open.json
 d1f5b6a39ec6178350d3af10b91006935367a17b assets/darkuniverse/models/block/corrupt_door_bottom_right.json
@@ -49,6 +51,7 @@ fbf6f61738e52923c92be731bd0aa3a8ec964def assets/darkuniverse/models/block/corrup
 9a69169efdb1030f922244dbef91cf90f46166dd assets/darkuniverse/models/block/raw_corrupt_block.json
 e862790a30ce5d30b06c99143b07e012e177d05c assets/darkuniverse/models/item/corrupt_block.json
 f63832225a59176d62a02f9fbc87e8d438925c33 assets/darkuniverse/models/item/corrupt_bricks.json
+a5990d43507584ecd0c014885e87deb53c1af50a assets/darkuniverse/models/item/corrupt_coal_ore.json
 3df08635f0ae39b51c8756f4876bc2c1abba9c9a assets/darkuniverse/models/item/corrupt_ore.json
 5e445bdebe84af94f00e45620deff743b0b405a0 assets/darkuniverse/models/item/corrupt_stone.json
 44c070e9a62025d21922fcfa1757860ee0802448 assets/darkuniverse/models/item/raw_corrupt_block.json

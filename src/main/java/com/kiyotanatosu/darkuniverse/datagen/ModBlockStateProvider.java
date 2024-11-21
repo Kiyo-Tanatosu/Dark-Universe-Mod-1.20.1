@@ -18,6 +18,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.CORRUPT_BLOCK);
         blockWithItem(ModBlocks.RAW_CORRUPT_BLOCK);
         blockWithItem(ModBlocks.CORRUPT_ORE);
+        blockWithItem(ModBlocks.CORRUPT_COAL_ORE);
 
         blockWithItem(ModBlocks.CORRUPT_STONE);
         blockWithItem(ModBlocks.CORRUPT_BRICKS);

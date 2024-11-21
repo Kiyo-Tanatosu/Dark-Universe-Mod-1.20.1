@@ -1,7 +1,8 @@
-// 1.20.1	2024-11-20T11:24:05.7281904	Loot Tables
+// 1.20.1	2024-11-21T14:49:10.3058939	Loot Tables
 421e05e36a7f9ea3ef416b1b0e85fbaa967c540a data/darkuniverse/loot_tables/blocks/corrupt_block.json
 1a18e0bbe0c91d3652d4c0c5ff4133449338dd28 data/darkuniverse/loot_tables/blocks/corrupt_bricks.json
 808483b3c7225e0f6acecc9cbe16eb70b6d6bb8d data/darkuniverse/loot_tables/blocks/corrupt_button.json
+d3c47ea6ccb6af2f94457b56fac6a5c8713f23c8 data/darkuniverse/loot_tables/blocks/corrupt_coal_ore.json
 cd6670d7d4add82d6eebaf5575f8176b90dd6ed2 data/darkuniverse/loot_tables/blocks/corrupt_door.json
 0622f957228423fd3c0e95d113606965d7b49038 data/darkuniverse/loot_tables/blocks/corrupt_fence.json
 c91408ecf6ea54d0a66e0a182e9727a3d47c7969 data/darkuniverse/loot_tables/blocks/corrupt_fence_gate.json
