@@ -74,6 +74,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.CORRUPT_LEGGINGS);
         trimmedArmorItem(ModItems.CORRUPT_BOOTS);
 
+        withExistingParent(ModItems.CORRUPT_SKELETON_SPAWN_EGG.getId().getPath(), mcLoc("item/wither_skeleton_spawn_egg"));
+
 
     }
 

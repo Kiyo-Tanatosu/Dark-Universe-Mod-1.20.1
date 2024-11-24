@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-20T23:46:10.5820861	Item Models: darkuniverse
+// 1.20.1	2024-11-24T11:24:18.7033919	Item Models: darkuniverse
 c871dcba339c1657e8b09f46b55b0b31671e11fa assets/darkuniverse/models/item/banana.json
 e960e01ac9a6d6f77d33f6b7cde8fc3da8ca6d53 assets/darkuniverse/models/item/corrupt_axe.json
 1ce7e4a36640002bdb6ef9565708a67fa73aa390 assets/darkuniverse/models/item/corrupt_boots.json
@@ -55,6 +55,7 @@ ae5cbfc4353e35106c207da67b225dfcea9bfd50 assets/darkuniverse/models/item/corrupt
 2c9970691551a0273aa7bde98e1f2ce2b527e3c3 assets/darkuniverse/models/item/corrupt_pickaxe.json
 c0b44207755f8a726ccf1e87cf3135827d30dfcd assets/darkuniverse/models/item/corrupt_pressure_plate.json
 3fed3f3e90241efdce9b3c7d3ba89b5550289af3 assets/darkuniverse/models/item/corrupt_shovel.json
+a26db9c7d18454f297869cbabac2f2f8e8a0f3fe assets/darkuniverse/models/item/corrupt_skeleton_spwan_egg.json
 3abadfa3ffdfad4307b0fd922171cfa005e60708 assets/darkuniverse/models/item/corrupt_slab.json
 f04efba4dc923277eb5908f7f368759cfaddb3f3 assets/darkuniverse/models/item/corrupt_stairs.json
 0b1afad7eaeaca62fd599b716924f1e170cb2aaa assets/darkuniverse/models/item/corrupt_sword.json

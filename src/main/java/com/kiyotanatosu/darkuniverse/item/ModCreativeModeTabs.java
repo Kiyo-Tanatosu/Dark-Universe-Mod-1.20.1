@@ -52,6 +52,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.BANANA.get());
 
+                        output.accept(ModItems.CORRUPT_SKELETON_SPAWN_EGG.get());
+
 
                     })
                     .build());

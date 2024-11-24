@@ -1,29 +1,29 @@
-[21Nov2024 14:56:11.362] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\Patri\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, darkuniverse, --all, --output, D:\Dark Universe Mod 1.20.1\src\generated\resources, --existing, D:\Dark Universe Mod 1.20.1\src\main\resources]
-[21Nov2024 14:56:11.378] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[21Nov2024 14:56:11.883] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[21Nov2024 14:56:12.289] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Patri/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[21Nov2024 14:56:13.981] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Patri\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[21Nov2024 14:56:13.988] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Patri\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[21Nov2024 14:56:13.997] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Patri\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[21Nov2024 14:56:14.007] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Patri\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[21Nov2024 14:56:14.252] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[21Nov2024 14:56:23.059] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Patri\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, darkuniverse, --all, --output, D:\Dark Universe Mod 1.20.1\src\generated\resources, --existing, D:\Dark Universe Mod 1.20.1\src\main\resources]
-[21Nov2024 14:56:24.816] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [darkuniverse]
-[21Nov2024 14:56:40.658] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[21Nov2024 14:56:40.666] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[21Nov2024 14:56:41.611] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Patri/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[21Nov2024 14:56:41.612] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Patri/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[21Nov2024 14:56:41.915] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[21Nov2024 14:56:42.005] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 88 ms
-[21Nov2024 14:56:42.005] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[21Nov2024 14:56:42.103] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 97 ms
-[21Nov2024 14:56:42.103] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: darkuniverse
-[21Nov2024 14:56:42.357] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: darkuniverse finished after 253 ms
-[21Nov2024 14:56:42.357] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: darkuniverse
-[21Nov2024 14:56:42.429] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: darkuniverse finished after 70 ms
-[21Nov2024 14:56:42.429] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id darkuniverse
-[21Nov2024 14:56:42.444] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id darkuniverse finished after 14 ms
-[21Nov2024 14:56:42.444] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id darkuniverse
-[21Nov2024 14:56:42.446] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id darkuniverse finished after 1 ms
-[21Nov2024 14:56:42.446] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 531 ms
-[21Nov2024 14:56:42.459] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 198, old count: 194, new count: 199, removed stale: 0, written: 4
+[24Nov2024 11:24:06.392] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\Patri\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, darkuniverse, --all, --output, D:\Dark Universe Mod 1.20.1\src\generated\resources, --existing, D:\Dark Universe Mod 1.20.1\src\main\resources]
+[24Nov2024 11:24:06.397] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[24Nov2024 11:24:06.583] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[24Nov2024 11:24:06.659] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Patri/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[24Nov2024 11:24:07.125] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Patri\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[24Nov2024 11:24:07.130] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Patri\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[24Nov2024 11:24:07.136] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Patri\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[24Nov2024 11:24:07.143] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Patri\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[24Nov2024 11:24:07.274] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[24Nov2024 11:24:09.115] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Patri\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, darkuniverse, --all, --output, D:\Dark Universe Mod 1.20.1\src\generated\resources, --existing, D:\Dark Universe Mod 1.20.1\src\main\resources]
+[24Nov2024 11:24:09.697] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [darkuniverse]
+[24Nov2024 11:24:16.404] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[24Nov2024 11:24:16.420] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[24Nov2024 11:24:17.641] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Patri/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[24Nov2024 11:24:17.642] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Patri/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[24Nov2024 11:24:17.995] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[24Nov2024 11:24:18.059] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 63 ms
+[24Nov2024 11:24:18.059] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[24Nov2024 11:24:18.125] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 65 ms
+[24Nov2024 11:24:18.125] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: darkuniverse
+[24Nov2024 11:24:18.455] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: darkuniverse finished after 329 ms
+[24Nov2024 11:24:18.455] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: darkuniverse
+[24Nov2024 11:24:18.656] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: darkuniverse finished after 200 ms
+[24Nov2024 11:24:18.657] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id darkuniverse
+[24Nov2024 11:24:18.691] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id darkuniverse finished after 34 ms
+[24Nov2024 11:24:18.691] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id darkuniverse
+[24Nov2024 11:24:18.701] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id darkuniverse finished after 9 ms
+[24Nov2024 11:24:18.701] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 706 ms
+[24Nov2024 11:24:18.729] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 199, old count: 198, new count: 200, removed stale: 0, written: 1

@@ -1,10 +1,13 @@
 package com.kiyotanatosu.darkuniverse;
 
 import com.kiyotanatosu.darkuniverse.block.ModBlocks;
+import com.kiyotanatosu.darkuniverse.entity.ModEntities;
+import com.kiyotanatosu.darkuniverse.entity.client.CorruptSkeletonRenderer;
 import com.kiyotanatosu.darkuniverse.item.ModCreativeModeTabs;
 import com.kiyotanatosu.darkuniverse.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -39,6 +42,8 @@ public class DarkUniverse
         ModCreativeModeTabs.register(modEventBus);
 
         ModBlocks.register(modEventBus);
+
+        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -82,9 +87,7 @@ public class DarkUniverse
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            // Some client setup code
-            LOGGER.info("HELLO FROM CLIENT SETUP");
-            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+            EntityRenderers.register(ModEntities.CORRUPT_SKELETON.get(), CorruptSkeletonRenderer::new);
         }
     }
 }

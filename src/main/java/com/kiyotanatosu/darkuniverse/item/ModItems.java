@@ -1,9 +1,11 @@
 package com.kiyotanatosu.darkuniverse.item;
 
 import com.kiyotanatosu.darkuniverse.DarkUniverse;
+import com.kiyotanatosu.darkuniverse.entity.ModEntities;
 import com.kiyotanatosu.darkuniverse.item.custom.FuelItem;
 import com.kiyotanatosu.darkuniverse.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -49,6 +51,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> CORRUPT_BOOTS = ITEMS.register("corrupt_boots",
             () -> new ModArmorItem(ModArmorMaterials.CORRUPT, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> CORRUPT_SKELETON_SPAWN_EGG = ITEMS.register("corrupt_skeleton_spwan_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.CORRUPT_SKELETON, 0xb53075, 0xca1874, new Item.Properties()));
 
 
 
