@@ -1,4 +1,5 @@
-// 1.20.1	2024-11-21T14:49:10.3164371	Block States: darkuniverse
+// 1.20.1	2024-11-25T13:33:23.6851977	Block States: darkuniverse
+0bfd950fc58599a48a8b99dbe33d03e32a1980e9 assets/darkuniverse/blockstates/corrupt_alter.json
 9e8a64b4e5515e72cb6c9a7010044fa11132d560 assets/darkuniverse/blockstates/corrupt_block.json
 c637347c3f18bc41f48afe6167424ddca5173d82 assets/darkuniverse/blockstates/corrupt_bricks.json
 38f4a375b15e3c51e3af25d9f975167dcb1b4c5b assets/darkuniverse/blockstates/corrupt_button.json
@@ -14,6 +15,7 @@ b027cd55942c5c9445dbe6530b8e854a47288e43 assets/darkuniverse/blockstates/corrupt
 dfd32b0220fdb4c02217513415ebc7d3a1de471f assets/darkuniverse/blockstates/corrupt_trapdoor.json
 5f1d523016013763764ada1ce29d6ea4b7f4d658 assets/darkuniverse/blockstates/corrupt_wall.json
 4b4f1c81f9875a13cac2c089890da799600a14d1 assets/darkuniverse/blockstates/raw_corrupt_block.json
+5e7e3946a8afda00d3bd2be760c6a7d72d29481d assets/darkuniverse/models/block/corrupt_alter.json
 75077771868be15be2369c41db9168c4dc999f4e assets/darkuniverse/models/block/corrupt_block.json
 0b3d64dabaa2f490b617cb28e0230e044c4cdd65 assets/darkuniverse/models/block/corrupt_bricks.json
 03fae371f394450181d64a6cf14499027b73aa1c assets/darkuniverse/models/block/corrupt_button.json
@@ -49,6 +51,7 @@ fbf6f61738e52923c92be731bd0aa3a8ec964def assets/darkuniverse/models/block/corrup
 596ca89fc2a5fbae23c8139065054c3f19c5c3d4 assets/darkuniverse/models/block/corrupt_wall_side.json
 84d0c9a47685343c94635093aff444600b3e5f04 assets/darkuniverse/models/block/corrupt_wall_side_tall.json
 9a69169efdb1030f922244dbef91cf90f46166dd assets/darkuniverse/models/block/raw_corrupt_block.json
+727ed418d277634c2498d2cceaaccd04292efd97 assets/darkuniverse/models/item/corrupt_alter.json
 e862790a30ce5d30b06c99143b07e012e177d05c assets/darkuniverse/models/item/corrupt_block.json
 f63832225a59176d62a02f9fbc87e8d438925c33 assets/darkuniverse/models/item/corrupt_bricks.json
 a5990d43507584ecd0c014885e87deb53c1af50a assets/darkuniverse/models/item/corrupt_coal_ore.json

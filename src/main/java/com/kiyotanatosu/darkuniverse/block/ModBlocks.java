@@ -1,6 +1,7 @@
 package com.kiyotanatosu.darkuniverse.block;
 
 import com.kiyotanatosu.darkuniverse.DarkUniverse;
+import com.kiyotanatosu.darkuniverse.block.custom.CorruptPortalBlock;
 import com.kiyotanatosu.darkuniverse.item.ModItems;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.BlockItem;
@@ -68,6 +69,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CORRUPT_TRAPDOOR = registerBlock("corrupt_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_TRAPDOOR), BlockSetType.STONE));
+
+    public static final RegistryObject<Block> CORRUPT_ALTER = registerBlock("corrupt_alter",
+            () -> new CorruptPortalBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noLootTable().noOcclusion()));
 
 
 

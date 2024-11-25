@@ -36,6 +36,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         doorBlockWithRenderType(((DoorBlock) ModBlocks.CORRUPT_DOOR.get()), modLoc("block/corrupt_door_bottom"), modLoc("block/corrupt_door_top"), "cutout");
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.CORRUPT_TRAPDOOR.get()), modLoc("block/corrupt_trapdoor"), true, "cutout");
 
+        blockWithItem(ModBlocks.CORRUPT_ALTER);
+
 
     }
 
